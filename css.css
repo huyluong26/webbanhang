@@ -1,0 +1,224 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;}
+  .root li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+
+}
+.menu_web{
+    background-color: rgb(209, 34, 34);
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+    
+
+}
+.root li a:hover{
+    background-color: rgb(160, 0, 0); color: rgb(252, 235, 0);
+    
+}
+.submenu{width: 200px;
+background-color:aquamarine;
+color: purple;
+min-height: 80px;
+display: none;
+position: absolute;
+z-index: 1;}
+.submenu li{list-style: none;}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+    display:block;
+    border: 0px #ccc solid;
+    line-height: 50px;
+    text-align: 15px;
+    z-index: 1;
+
+}
+.root li:hover .submenu{
+    display: block;
+    background-color: rgb(209, 34, 34);
+    color: white;
+    transition: ease-in-out 0.35s;
+    z-index: 1;
+}
+.submenu li a:hover{
+    background-color: rgb(209, 34, 34);
+    color: rgb(0, 0, 0);
+    transform: ease-in-out;
+    z-index: 1;
+}
+
+.submenu1{width: 200px;
+    background-color:rgb(37, 32, 32);
+    color: white;
+    min-height: 80px;
+    display: none;
+    position: absolute;
+    z-index: 1;}
+    .submenu1 li{list-style: none;}
+    .submenu1 li a{
+        text-transform: none;
+        text-decoration: none;
+        color: white;
+        display:block;
+        border: 0px #ccc solid;
+        line-height: 50px;
+        text-align: 15px;
+        z-index: 1;
+    }
+    .root li:hover .submenu1{
+        display: block;
+        background-color: rgb(209, 34, 34);
+        color: white;
+        transition: ease-in-out 0.35s;
+        z-index: 1;
+    }
+    .submenu1 li a:hover{
+        background-color: rgb(209, 34, 34);
+        color: rgb(0, 0, 0);
+        transform: ease-in-out;
+        z-index: 1;
+    }
+.searchButton{
+  width: 40px;
+  height : 40px ;
+  border: 2px solid rgb(155, 97, 22) ;
+  border-radius: 50%;
+}
+
+.cum{
+  margin-left: 1450px;
+}
+.login{
+  float: left;
+  font-size: 100px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;}
+  
+
+  .demoslide {
+  margin-top: 100px;
+  width: 1200px;
+  margin: 0 auto;
+  height: 425px;
+  overflow: hidden;
+  transition: 0.5;
+    }
+  .phan1{
+    background-color: #ffffff;
+    margin-left: 100px;
+  }
+  .to {
+    background-color: #ffffff;
+    float: left;
+
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+
+  }
+.article {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 600px;
+    height: 200px;
+    float: right;
+    padding: 20px;
+    width: 48%;
+    list-style: none;
+    height: 100%;
+
+    }
+  .menuphim{
+      display: flex;
+      text-decoration: none;}
+  .gia2{
+      text-align: center;
+      color :rgb(255, 2, 2) ;
+      font-weight: bold;
+    }
+  .gia{
+        text-align: center;
+        color:rgb(0, 0, 0);
+        
+    }
+  .tensp{
+      text-align: center;
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .sp{
+      border: none;
+    }
+  .container {
+      width: 100%;
+      margin: 0 auto;
+      text-decoration: none;
+    }
+  ul li  {
+      margin-left: 10px;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+  ul li::marker {
+      content: "";
+    }
+ .theloai{
+      width: 80%;
+      font-size: 35px;
+      color: rgb(172, 55, 55);
+      font-weight: bold;
+      margin-left: 700px;
+  }
+
+  .theloai1{
+    width: 80%;
+    font-size: 35px;
+    color: rgb(172, 55, 55);
+    font-weight: bold;
+    margin-left: 750px;
+}
+  .buy-button {
+    
+    background-color: #e70303; 
+    border-radius: 7px;
+    color: white; 
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 55px;
+    cursor: pointer; 
+  }
+
+  .ket{
+   background-color: #c50a0a;
+   color: #ffffff;
+    
+  }
+  .ket ul  {
+    display:flex;
+    justify-content: space-between;
+    
+  }

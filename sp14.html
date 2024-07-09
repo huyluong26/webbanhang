@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="csssp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu_web">
+            <ul class="root">
+                <li><a href="./index.html" class="href">Trang chủ</a></li>
+                <li><a href="" class="href">Sách trong nước</a>
+                <ul class="submenu">
+                    <li><a href="./wbcotrang.html" class="href">Văn học</a></li>
+                    <li><a href="./wbkinhdi.html" class="href">Kinh tế</a></li>
+                    <li><a href="./wbtinhcam.html" class="href">Thiếu nhi</a></li>
+                    <li><a href="./wbhanhdong.html" class="href">Ngoại ngữ</a></li>
+                    <li><a href="./wbphieuluu.html" class="href">Văn học</a></li>
+                    <li><a href="./wbhoathinh.html" class="href">Truyện tranh</a></li>
+                
+            </ul>
+            </li>
+                <li><a href="" class="href">Đồ chơi</a>
+                    <ul class="submenu1">
+                        <li><a href="./wbaumy.html" class="href">Trí tuệ</a></li>
+                        <li><a href="./wbnhatban.html" class="href">Lắp ráp</a></li>
+                        <li><a href="./wbtrungquoc.html" class="href">Mô hình</a></li>
+                        <li><a href="./wbhanquoc.html" class="href">Board game</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="./wbphimle.html" class="href">Dụng cụ học tập</a></li>
+                <li><a href="" class="href">Đồ lưu niệm</a>
+                <li><a href="./wbphimbo.html" class="href">Chăm sóc khách hàng</a></li>
+                
+                <div class="cum">
+                    <li class="search">
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <button type="submit" class="searchButton"><i class='bx bx-search-alt-2'></i></button>
+                    </li>
+                    <li><a href="index.html" class="href">Đăng Nhập</a></li>
+                    <li class="giohang"><a href=""><i class='bx bxs-shopping-bag'></i></a></li>
+                    </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="khung-chua">
+        <div class="hinh-san-pham">
+            <img id="hinhLon" src="images/sach14.jpg" alt="">
+            <div class="hinh-nho">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/c/a/ca8212416dfa95a4cceb.jpg" alt="Hình nhỏ 1" onclick="thayDoiHinh('https://cdn0.fahasa.com/media/catalog/product/c/a/ca8212416dfa95a4cceb.jpg')">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/8/b/8b253df94242ba1ce353.jpg" alt="Hình nhỏ 2" onclick="thayDoiHinh('https://cdn0.fahasa.com/media/catalog/product/8/b/8b253df94242ba1ce353.jpg')">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/e/0/e0071df4624f9a11c35e.jpg" alt="Hình nhỏ 3" onclick="thayDoiHinh('https://cdn0.fahasa.com/media/catalog/product/e/0/e0071df4624f9a11c35e.jpg')">
+                <img src="https://cdn0.fahasa.com/media/catalog/product/8/9/8997010764058-2.jpg" alt="Hình nhỏ 4" onclick="thayDoiHinh('https://cdn0.fahasa.com/media/catalog/product/8/9/8997010764058-2.jpg')">
+            </div>
+        </div>
+        <div class="chi-tiet-san-pham">
+            <h1>Lắp Ráp Mô Hình Khu Rừng Sáng Tạo </h1><br>
+            <div class="ttsp">
+                <p>Xuất xứ:Thương Hiệu Đức</p><br>
+                <p>Thương hiệu:Faber-Castell</p>
+            </div>
+            <div class="gia">
+                <span class="gia-moi">149.000đ</span>
+                <span class="gia-cu">200.000đ</span>
+            </div>
+            <div class="lua-chon-so-luong">
+                <label>Số lượng: </label>
+                <button onclick="thayDoiSoLuong(-1)">-</button>
+                <input type="text" id="soLuong" value="1">
+                <button onclick="thayDoiSoLuong(1)">+</button>
+            </div>
+            <buton  class="dat-hang">Đặt hàng </buton>
+            <button class="them-vao-gio-hang">Thêm vào giỏ hàng </button>
+            <div class="khuyen-mai">
+                <h3>TỪ 01 - 05/07</h3>
+                <ul>
+                    <li>Mã giảm giá 10K cho đơn hàng từ 150K</li>
+                    <li>Khách hàng có thể áp dụng cùng lúc với mã giảm phí vận chuyển</li>
+                    <li>Mã giảm giá 50K cho đơn hàng từ 500K</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="ket">
+        <ul>
+          <li>
+            <h4>Giới thiệu</h4>
+            <p>Nhà sách chuyên cung cấp các loại sách, truyện văn phòng phẩm phục vụ cho đọc giả<br> luôn cập nhật những sách mới nhất với giá cả hợp lý mang lại trải nghiệm tuyệt vời cho<br> đọc giả tại đây.</p>
+          </li>
+          <li>
+            <h4>Liên hệ</h4>
+            <p>&#9993: luongquanghuy26112002@gmail.com</p>
+            <p>&#9742: 0333961382</p>
+            <p>Facebook: Huy Lương</p>
+          <li>
+            <h4>Địa chỉ </h4>
+            <p>Văn phòng: Số 44 - ngõ 66A - Triều Khúc</p>
+            <p>Kho hàng: Số 1 - ngõ 2 - Tân Triều </p>
+          </li>
+        </ul>
+      </div> 
+<script>
+        function thayDoiHinh(duongDanHinh) {
+    var hinhLon = document.getElementById("hinhLon");
+    hinhLon.src = duongDanHinh;
+}
+
+function thayDoiSoLuong(thayDoi) {
+    var inputSoLuong = document.getElementById("soLuong");
+    var soLuongHienTai = parseInt(inputSoLuong.value);
+    var soLuongMoi = soLuongHienTai + thayDoi;
+
+    if (soLuongMoi > 0) {
+        inputSoLuong.value = soLuongMoi;
+    }
+}
+    </script>
+</body>
+</html>

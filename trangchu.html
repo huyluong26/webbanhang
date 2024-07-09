@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BÁN SÁCH, TRUYỆN ONLINE</title>
+    <link rel="stylesheet" href="./css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    
+</head>
+<script type="text/javascript">
+    $(function() {
+        $('.demoslide img:gt(0)').hide();
+        setInterval(function(){
+          $('.demoslide :first-child').fadeOut() //FadeOut là ảnh đang hiện
+          .next('img').fadeIn() //fadeIn ảnh tiếp theo
+          .end().appendTo('.demoslide'); // chuyển vị trí ảnh xuống cuối
+          }, 3000);
+    });
+    </script>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<body>
+    <div class="menu">
+        <div class="menu_web">
+            <ul class="root">
+                <li><a href="./trangchu.html" class="href">Trang chủ</a></li>
+                <li><a href="" class="href">Sách trong nước</a>
+                <ul class="submenu">
+                    <li><a href="./trangchu.html" class="href">Văn học</a></li>
+                    <li><a href="./trangchu.html" class="href">Kinh tế</a></li>
+                    <li><a href="./trangchu.html" class="href">Thiếu nhi</a></li>
+                    <li><a href="./trangchu.html" class="href">Ngoại ngữ</a></li>
+                    <li><a href="./trangchu.html" class="href">Văn học</a></li>
+                    <li><a href="./trangchu.html" class="href">Truyện tranh</a></li>
+                
+            </ul>
+            </li>
+                <li><a href="" class="href">Đồ chơi</a>
+                    <ul class="submenu1">
+                        <li><a href="./trangchu.html" class="href">Trí tuệ</a></li>
+                        <li><a href="./trangchu.html" class="href">Lắp ráp</a></li>
+                        <li><a href="./trangchu.html" class="href">Mô hình</a></li>
+                        <li><a href="./trangchu.html" class="href">Board game</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="./trangchu.html" class="href">Dụng cụ học tập</a></li>
+                <li><a href="" class="href">Đồ lưu niệm</a>
+                <li><a href="./trangchu.html" class="href">Chăm sóc khách hàng</a></li>
+                <div class="cum">
+                <li class="search">
+                    <input type="text" placeholder="Tìm kiếm...">
+                    <button type="submit" class="searchButton"><i class='bx bx-search-alt-2'></i></button>
+                </li>
+                <li><a href="index.html" class="href">Đăng Nhập</a></li>
+                <li class="giohang"><a href=""><i class='bx bxs-shopping-bag'></i></a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <nav class="phan1">
+    <br>
+    <ul>
+        <li class="to">
+    <div class="demoslide">
+		<img src="img1.jpg" width="900px" height="500px">
+		<img src="img2.jpg" width="900px" height="500px">
+		<img src="img3.jpg" width="900px" height="500px">
+		<img src="img4.jpg" width="900px" height="500px">
+		<img src="img5.jpg" width="900px" height="500px">
+	</div></li>
+        <li class="article">
+        <a href="#"><img src="img8.jpg" width="600px" height="200px"></a><br><br>
+        <a href="#"><img src="img7.jpg" width="600px" height="200px"></a>
+        </li>
+</ul> 
+    </nav>
+    <div class="container">
+        <a class="theloai">Xu Hướng Mua Sắm<br></a><br>
+          <ul class="menuphim">
+              <li>
+                  <div class="sp" >
+                      <a  href="sp1.html" id="anh1" >
+                          <img src="sach1.jpg"  width="250px" height="350px">
+                      </a>
+                    <div class="tensp">Từng bước hoa sen nở</div><br>
+                  <div class="gia">Giá: 80.000đ</div>
+                  <div class="gia2"><p>Giá cũ: <del>100.000đ</del></p></div><br>
+                  <a href="sp1.html"><button class="buy-button">Đặt mua</button></a>
+      
+                  </div>
+              </li>
+              <li> <div class="sp" >
+                <a href="./sp2.html" id="anh2">
+                    <img src="sach2.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Không diệt không sinh đừng sợ hãi</div><br>
+                <div class="gia">Giá: 119.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>149.000đ</del></p></div><br>
+                <a href="sp2.html"><button class="buy-button">Đặt mua</button></a>
+      
+              </div></li>
+              <li> <div class="sp" >
+                <a href="./sp3.html" id="anh3" >
+                    <img src="sach3.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Tết ở làng Địa Ngục</div><br>
+                <div class="gia">Giá: 75.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>99.000đ</del></p></div><br>
+                <a href="sp3.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+              <li> <div class="sp" >
+                <a href="./sp4.html" id="anh4" >
+                    <img src="sach4.jpg"width="250px" height="350px">,
+                </a>
+                <div class="tensp">Tâm lý học Think Psychology</div><br>
+                <div class="gia">Giá: 120.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>150.000đ</del></p></div><br>
+                <a href="sp4.html"><button class="buy-button">Đặt mua</button></a>
+      
+              </div></li>
+
+              <li> <div class="sp" >
+                <a href="./sp5.html" id="anh5" >
+                    <img src="sach5.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Kỹ năng bảo vệ bản thân</div><br>
+                <div class="gia">Giá: 40.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>65.000đ</del></p></div><br>
+                <a href="sp5.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+
+              <li> <div class="sp" >
+                <a href="./sp6.html" id="anh6" >
+                    <img src="sach6.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Solo Leveling</div><br>
+                <div class="gia">Giá: 20.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>25.000đ</del></p></div><br>
+                <a href="sp6.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+
+        <li> <div class="sp" >
+            <a href="./sp7.html" id="anh7">
+                <img src="sach7.jpg" width="250px" height="350px">,
+            </a>
+            <div class="tensp">Atomic habits</div><br>
+            <div class="gia">Giá: 110.000đ</div>
+            <div class="gia2"><p>Giá cũ: <del>150.000đ</del></p></div><br>
+            <a href="sp7.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+
+        
+        </ul><br><br><br><br>
+    </div>
+    <div class="container">
+        <a class="theloai1">Sản Phẩm Nổi Bật<br></a><br>
+          <ul class="menuphim">
+              <li>
+                  <div class="sp" >
+                      <a  href="./sp8.html" id="anh8" >
+                          <img src="sach8.jpg"  width="250px" height="350px">,
+                      </a>
+                    <div class="tensp">POKEMON</div><br>
+                  <div class="gia">Giá: 199.000đ</div>
+                  <div class="gia2"><p>Giá cũ: <del>250.000đ</del></p></div><br>
+                  <a href="sp8.html"><button class="buy-button">Đặt mua</button></a>
+      
+                  </div>
+              </li>
+              <li> <div class="sp" >
+                <a href="./sp9.html" id="anh9">
+                    <img src="sach9.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Gấu bông Cabybara</div><br>
+                <div class="gia">Giá: 349.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>499.000đ</del></p></div><br>
+                <a href="sp9.html"><button class="buy-button">Đặt mua</button></a>
+      
+              </div></li>
+              <li> <div class="sp" >
+                <a href="./sp10.html" id="anh10" >
+                    <img src="sach10.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Đồ Chơi Dụng Cụ Trang Trí Sổ 3 Trong 1</div><br>
+                <div class="gia">Giá: 674.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>749.000đ</del></p></div><br>
+                <a href="sp10.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+              <li> <div class="sp" >
+                <a href="./sp11.html" id="anh11" >
+                    <img src="sach11.jpg"width="250px" height="350px">,
+                </a>
+                <div class="tensp">Bút lông bảng 4 màu</div><br>
+                <div class="gia">Giá: 69.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>99.000đ</del></p></div><br>
+                <a href="sp11.html"><button class="buy-button">Đặt mua</button></a>
+      
+              </div></li>
+
+              <li> <div class="sp" >
+                <a href="./sp12.html" id="anh12" >
+                    <img src="sach12.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Cặp sách cho trẻ</div><br>
+                <div class="gia">Giá: 449.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>699.000đ</del></p></div><br>
+                <a href="sp12.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+
+              <li> <div class="sp" >
+                <a href="./sp13.html" id="anh13" >
+                    <img src="sach13.jpg" width="250px" height="350px">,
+                </a>
+                <div class="tensp">Dune: Xứ cát</div><br>
+                <div class="gia">Giá: 70.000đ</div>
+                <div class="gia2"><p>Giá cũ: <del>99.000đ</del></p></div><br>
+                <a href="sp13.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+
+
+        <li> <div class="sp" >
+            <a href="./sp14.html" id="anh14">
+                <img src="sach14.jpg" width="250px" height="350px">,
+            </a>
+            <div class="tensp">Lắp ráp mô hình sáng tạo</div><br>
+            <div class="gia">Giá: 149.000đ</div>
+            <div class="gia2"><p>Giá cũ: <del>200.000đ</del></p></div><br>
+            <a href="sp14.html"><button class="buy-button">Đặt mua</button></a>
+        </div></li>
+
+        
+        </ul><br><br>
+    </div>
+
+    <div class="ket">
+        <ul>
+          <li>
+            <h4>Giới thiệu</h4>
+            <p>Nhà sách chuyên cung cấp các loại sách, truyện văn phòng phẩm phục vụ cho đọc giả<br> luôn cập nhật những sách mới nhất với giá cả hợp lý mang lại trải nghiệm tuyệt vời cho<br> đọc giả tại đây.</p>
+          </li>
+          <li>
+            <h4>Liên hệ</h4>
+            <p>&#9993: luongquanghuy26112002@gmail.com</p>
+            <p>&#9742: 0333961382</p>
+            <p>Facebook: Huy Lương</p>
+          <li>
+            <h4>Địa chỉ </h4>
+            <p>Văn phòng: Số 44 - ngõ 66A - Triều Khúc</p>
+            <p>Kho hàng: Số 1 - ngõ 2 - Tân Triều </p>
+          </li>
+        </ul>
+      </div> 
+
+    <script src="js.js"></script>
+</body>
+</html>

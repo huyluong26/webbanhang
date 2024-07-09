@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang nhap</title>
+    <style>
+        body {
+            background: url(./images/hinhnen.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ccc; /* Màu chữ chung cho body */
+        }
+      .bovien {
+            margin: auto;
+            margin-top: 100px;
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 12px;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(6px);
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+            color: #000000; /* Màu chữ cho các phần tử trong wrapper */
+        }
+
+        .nut {
+            background: #fff;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            font-weight: 600;
+            border-radius: 45px;
+            padding: 10px 20px;
+            margin: 5px;
+        }
+
+        .bovien label{
+          font-size: 20px;
+        }
+        .tk{
+          border-radius: 10px;
+            background: transparent;
+            border: 2px solid rgb(255, 255, 255);
+            width: calc(100% - 40px);
+            padding: 12px;
+            
+            color: #ffffff;
+            outline: none;
+            margin: 8px;
+        }
+    </style>
+    <script type="text/javascript" language="javascript">
+        function layGiaTri() {
+            var user = document.getElementById("username").value;
+            var pass = document.getElementById("password").value;
+            if(user=="") {
+                alert("Bạn không được để trống Username. Nhập lại!");
+                document.getElementById("username").focus();
+            }
+            else if(pass=="") {
+                alert("Bạn không được để trống Password. Nhập lại!");
+                document.getElementById("password").focus();
+            }
+            else if(pass.length<8) {
+                alert("Mật khẩu phải từ 8 ký tự trở lên. Nhập lại!");
+                document.getElementById("password").focus();
+            }
+        else
+        if(user=="nhasach" && pass=="12345678")
+            window.location.assign("trangchu.html");
+        else
+        {
+            alert("Bạn nhập sai Username hoặc password. Nhập lại!");
+            document.getElementById("username").focus();
+            document.getElementById("password").value="";
+            document.getElementById("username").value="";
+        }
+    }
+</script>
+</head>
+<body>
+    <form class="bovien">
+        <label>Tài khoản</label><br>
+        <input type="text" class="tk" id="username"> <br />
+        <label>Mật khẩu</label><br>
+        <input type="password" class="tk" id="password"> <br /><br>
+        <input class="nut" type="button"  onclick="layGiaTri();" value="Đăng nhập">
+        <p>taikhoan: nhasach</p>
+        <p>password: 12345678</p>
+    </form>
+</body>
+</html>
